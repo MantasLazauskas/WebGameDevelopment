@@ -1,0 +1,27 @@
+h1
+{ 
+    color:blueviolet
+}
+
+h2
+{
+    color:brown
+}
+
+#item1
+{
+    color:green    
+}
+
+.greenitem
+{
+    color:yellow
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color:white;
+  }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ 
+<body>
+ 
+    <h2>JavaScript Page</h2>
+    <a href="./MyApp.html">My App</a>
+
+    <p id = "demo">Note that the form itself is not visible</p>
+    <p id = "demo2">Another example</p>
+    
+    <script type ="module">
+        //ES5 Variables
+        var x = 1;
+        var y = 5;
+        var name = "Mantas Lazauskas";
+        var hasBook = true;
+        book = "value here";
+
+        name = "Nathan"
+        x = x + 1;
+        document.getElementById("demo").innerHTML = name;
+
+        function addItems(a, b)
+        {
+            return a + b;
+        }
+
+        //alert(addItems(x, y));
+        console.log("Result =" + addItems(x,y));
+
+        //ES6 Variables
+        let page = 1;
+        let isAvaialble = true;
+        letbookName = "Harry";
+        const height = 170;
+        page = page + 4;
+        page = 30 * 5;
+        document.getElementById("demo2").innerHTML = name;
+    </script>
+</body>
+ 
+</html>
